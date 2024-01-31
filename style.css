@@ -1,0 +1,90 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the entire page */
+#pageContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+/* Left container for title and logo */
+#leftContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 35%; /* Adjust as needed for the left container */
+    background-color: #0D1846;
+    padding: 50px;
+    overflow: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center children both vertically and horizontally */
+}
+
+/* Logo styling */
+.logo {
+    /* Adjust size as needed */
+    width: 120px; /* Example width */
+    height: auto; /* Maintains aspect ratio */
+    align-self: flex-start; /* Align logo to the start of the flex container */
+    margin-top: -50px; /* Adjust the margin to move the logo higher */
+    margin-left: 0px; /* Space on the left */
+    margin-bottom: 20px; /* Adjustable space between logo and title */
+}
+
+/* Title and subtitle styling */
+.titleContainer {
+    text-align: center; /* Center align the text */
+    margin-top: -50px; /* Adjust the negative margin to move the title higher */
+}
+
+.leftTitle, .leftSubtitle {
+    margin: 0px; /* Removes default margin */
+    color: white;
+}
+
+.leftTitle {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.leftSubtitle {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 10px; /* Space between title and subtitle */
+}
+
+/* Right container for content */
+#rightContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 35%; /* Adjust based on left container width */
+    right: 0;
+    background-color: #F1EFEB;
+    padding: 20%;
+    overflow: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Right content styling */
+.rightContent {
+    font-size: 16px;
+    color: black;
+}

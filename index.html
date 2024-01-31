@@ -1,132 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Labour Cost Dashboard for Executives</title>
-<style>
-  body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-  }
-  .dashboard-container {
-    max-width: 1200px;
-    margin: auto;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .header {
-    background-color: #00338D;
-    color: white;
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
-  }
-  .header img {
-    margin-right: 15px;
-  }
-  .header .title {
-    font-size: 2em;
-  }
-  .header .subtitle {
-    font-size: 1em;
-    opacity: 0.85;
-    margin-top: 8px;
-  }
-  .content {
-    padding: 20px 40px;
-  }
-  .content-section {
-    margin-bottom: 20px;
-  }
-  .content-section h2 {
-    color: #00338D;
-    margin-bottom: 10px;
-  }
-  .content-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  .content-section ul li {
-    margin-bottom: 5px;
-    font-size: 0.95em;
-  }
-  .footer {
-    font-size: 0.8em;
-    text-align: right;
-    padding: 10px 40px;
-    background-color: #f0f0f0;
-    border-top: 1px solid #e0e0e0;
-  }
-  
-  /* BEGIN: New CSS for SVG */
-  .svg-container {
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding-bottom: 56.25%;
-  }
-  .svg-container svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  /* END: New CSS for SVG */
-</style>
+    <!-- link to style CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="dashboard-container">
-
-  <div class="header">
-    <img src="bupa-logo.png" alt="Bupa Logo" height="50"> <!-- Adjust the src attribute to point to your actual logo image -->
-    <div>
-      <div class="title">Labour Cost Dashboard for Executives</div>
-      <div class="subtitle">A Comprehensive Overview of Labour Cost KPIs</div>
+    <div id="leftContainer">
+        <!-- Icon and title/subtitle for the left container -->
+        <div class="titleBlock">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div>
+                <h1 class="leftTitle">Labour Cost Dashboard for Executives</h1>
+                <p class="leftSubtitle">This is the Subtitle</p>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="content">
-    <div class="content-section">
-      <h2>Contents</h2>
-      <ul>
-        <li>KPI Dashboard
-          <ul>
-            <li>One page to explore KPIs and trends</li>
-          </ul>
-        </li>
-        <li>Peer Analysis
-          <ul>
-            <li>Compare the KPIs among sites</li>
-          </ul>
-        </li>
-      </ul>
+    <div id="rightContainer">
+        <!-- Content for the right container will be rendered dynamically -->
     </div>
-
-    <div class="content-section">
-      <h2>Data Scope</h2>
-      <p>Payroll data from Chris21</p>
-      <p>Care Home ONLY, no Village and Support Office data</p>
-      <p>Fortnightly paid payrun ONLY, Extra Pay payrun not included</p>
-      <p>Full cost approach – all roles are included in the reporting to reflect the full cost of providing care. A change from previous WAS reporting</p>
-    </div>
-
-    <div class="content-section">
-      <h2>Definition</h2>
-      <p>To see the definition of KPIs, hover over the ? mark in the KPI card.</p>
-      <p>Worked hours – represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site</p>
-    </div>
-  </div>
-
-  <div class="footer">
-    <p>Data updated to Payrun 6887 end 21/01/2024</p>
-  </div>
-
-</div>
-
+    <!-- link to marked.min.js in local directory -->
+    <script type = "module" src="marked.min.js"></script>
+    <!-- link to script.js -->
+    <script src="script.js"></script>
 </body>
 </html>

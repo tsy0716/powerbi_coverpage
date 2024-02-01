@@ -4,7 +4,7 @@
     <!-- link to style CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="loadMarkdownFile()">
     <div id="leftContainer">
         <!-- Icon and title/subtitle for the left container -->
         <div class="titleBlock">
@@ -16,11 +16,30 @@
         </div>
     </div>
     <div id="rightContainer">
-        <!-- Content for the right container will be rendered dynamically -->
+        <!-- the rendered markdown should align to the left -->
+        <div id="markdown" class="markdown markdown-content"></div>
     </div>
-    <!-- link to marked.min.js in local directory -->
-    <script type = "module" src="marked.min.js"></script>
-    <!-- link to script.js -->
-    <script src="script.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script type="text/javascript">
+    function loadMarkdownFile() {
+        fetch('content.md')
+            .then(response => response.text())
+            .then(markdown => {
+                var html = marked.parse(markdown);
+                document.getElementById('markdown').innerHTML = html;
+
+                var list = document.getElementById('markdown').children;
+                for(var i = 0 ; i < list.length; i++){
+                    list[i].onclick = function(){
+                        if(this.className == "hide"){
+                            this.className = "show"
+                        }else{
+                            this.className = "hide"
+                        }
+                    }
+                }
+            });
+    }
+</script>
 </html>

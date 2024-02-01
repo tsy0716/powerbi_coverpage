@@ -75,16 +75,69 @@ body {
     left: 35%; /* Adjust based on left container width */
     right: 0;
     background-color: #F1EFEB;
-    padding: 20%;
+    padding: 20px; /* Initial padding for content */
     overflow: auto;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column; /* Align content to the left */
     align-items: center;
     justify-content: center;
 }
 
-/* Right content styling */
-.rightContent {
-    font-size: 16px;
-    color: black;
+/* Add custom CSS for Markdown content alignment */
+.markdown-content {
+    text-align: left; /* Align content to the left */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding for spacing */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 16px; /* Specify font size */
+    line-height: 1.5; /* Specify line height for readability */
+}
+
+/* Style headings, paragraphs, lists, etc. as needed */
+.markdown-content h1 {
+    font-size: 24px; /* Adjust heading size as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.markdown-content h2 {
+    font-size: 20px; /* Adjust heading size as needed */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.markdown-content p {
+    margin-bottom: 10px;
+}
+
+.markdown-content ul {
+    margin-bottom: 10px;
+    list-style-type: disc; /* Add bullet points to unordered lists */
+}
+
+.markdown-content ol {
+    margin-bottom: 10px;
+    list-style-type: decimal; /* Add numbers to ordered lists */
+}
+
+/* Add styles for links, code blocks, etc. as needed */
+.markdown-content a {
+    color: #007bff; /* Link color */
+    text-decoration: underline; /* Underline links */
+}
+
+.markdown-content code {
+    background-color: #f8f9fa; /* Background color for code blocks */
+    padding: 4px; /* Add padding to code blocks */
+    border: 1px solid #ccc; /* Border for code blocks */
+    font-family: Consolas, monospace; /* Specify code font */
+}
+.markdown-content img {
+    max-width: 30%; /* Limit image width to container width */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Render images in-line */
+
+/* Add styles for other Markdown elements as needed */
 }

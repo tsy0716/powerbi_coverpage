@@ -1,30 +1,44 @@
-import {marked} from 'marked.min.js';
-// Function to render Markdown content in the right container
-function renderMarkdownContent(markdown) {
-    const rightContainer = document.getElementById('rightContainer');
-    rightContainer.innerHTML = marked(markdown);
-}
-
-// Function to fetch and render Markdown content from a file
-function fetchAndRenderMarkdownContent() {
-    // Define the file path
-    const filePath = 'content.md';
-
-    // Use AJAX (XMLHttpRequest) to fetch the Markdown content
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', filePath, true);
-
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            const markdownContent = xhr.responseText;
-
-            // Render the fetched Markdown content in the right container
-            renderMarkdownContent(markdownContent);
+// Function to fetch JSON data
+async function fetchJSONData() {
+    try {
+        // Fetch the JSON content from your JSON file (e.g., data.json)
+        const response = await fetch('data.json'); // Update with the correct path to your JSON file
+        if (!response.ok) {
+            throw new Error('Failed to fetch JSON data');
         }
-    };
+        const jsonData = await response.json();
 
-    xhr.send();
+        // Render the JSON data into HTML
+        const jsonContentContainer = document.getElementById('jsonContent');
+        renderJSONData(jsonData, jsonContentContainer);
+    } catch (error) {
+        console.error(error);
+    }
 }
 
-// Call the function to fetch and render Markdown content
-fetchAndRenderMarkdownContent();
+// Function to render JSON data into HTML with subsections
+function renderJSONData(data, container) {
+    data.sections.forEach(section => {
+        const headingType = section.type;
+        const content = section.content;
+
+        const heading = document.createElement(headingType);
+        heading.textContent = content;
+
+        container.appendChild(heading);
+
+        // Check if the section has subsections
+        if (section.subsections && section.subsections.length > 0) {
+            const subsectionsContainer = document.createElement('div');
+            subsectionsContainer.className = 'subsection-container'; // Add a CSS class for styling
+
+            // Recursively render subsections
+            renderJSONData({ sections: section.subsections }, subsectionsContainer);
+
+            container.appendChild(subsectionsContainer);
+        }
+    });
+}
+
+// Call the function to fetch and render JSON data
+fetchJSONData();

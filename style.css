@@ -141,7 +141,7 @@ body {
     height: auto; /* Maintain aspect ratio */
     display: inline-flexbox; /* Render images in-line */
     /* the text before should align with the mid point of the img */
-    
+    vertical-align: middle;
 
 /* Add styles for other Markdown elements as needed */
 }

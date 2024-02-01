@@ -10,8 +10,8 @@
         <div class="titleBlock">
             <img src="logo.png" alt="Logo" class="logo">
             <div>
-                <h1 class="leftTitle">This is title</h1>
-                <p class="leftSubtitle">This is the Subtitle</p>
+                <h1 class="leftTitle">Labour Cost Dashboard for Executives</h1>
+                <p class="leftSubtitle">A Comprehensive Overview of Labour Cost KPIs</p>
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script type="text/javascript">
     function loadMarkdownFile() {
-        fetch('content.md')
+        fetch('payroll_execs.md')
             .then(response => response.text())
             .then(markdown => {
                 var html = marked.parse(markdown);

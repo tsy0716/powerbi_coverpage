@@ -1,18 +1,9 @@
-# Contents
+# STEP 1 : Choose your role
 
-- **KPI Dashboard**: One page to explore KPIs and trends
-- **Peer Analysis**: Compare the KPIs among sites
+- ![DOC_audience](DOC_audience.png)
 
-# Data Scope
+# STEP 2 : Navigate to the dashboard
 
-- Payroll data from Chris21
-- Care Home ONLY, no Village and Support Office data
-- Fortnightly paid payrun ONLY, Extra Pay payrun not included
-- Full cost approach: All roles are included in the reporting to reflect the full cost of providing care. A change from previous WAS reporting
+- ![DOC_dashboard](DOC_dashboard.png)
 
-# Definition
-
-- To see the definition of KPIs, hover over the ? mark in the KPI card. ![defination](defination.png)
-- Worked hours: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site
-
-# Data updated to Payrun
+# If need to publish your dashboard here, please contact Robert at shuyang.tu@bupa.co.nz

@@ -76,9 +76,9 @@ body {
     right: 0;
     background-color: #F1EFEB;
     padding: 20px; /* Initial padding for content */
-    overflow: auto;
+    overflow-y: scroll;
     box-sizing: border-box;
-    display: flex;
+    /* display: flex; */
     flex-direction: column; /* Align content to the left */
     align-items: center;
     justify-content: center;

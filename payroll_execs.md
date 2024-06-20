@@ -2,6 +2,7 @@
 
 - **KPI Dashboard**: One page to explore KPIs and trends
 - **Peer Analysis**: Compare the KPIs among sites
+- **Hrs Matrix**: The detailed breakdown of hours by roles and individual staff
 
 # Data Scope
 
@@ -14,5 +15,3 @@
 
 - To see the definition of KPIs, hover over the ? mark in the KPI card. ![defination](defination.png)
 - Worked hours: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site
-
-# Data updated to Payrun

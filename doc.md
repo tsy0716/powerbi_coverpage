@@ -3,4 +3,5 @@
 # STEP 2 : Navigate to the dashboard ![DOC_dashboard](DOC_dashboard.png)
 
 # ![DOC_all](DOC_all.png) will list all dashboards you are able to see
+# If you can't find the dashboard you believe you should have access, please raise a BESS ticket mentioning the name of the dashboard and your role
 # If need to publish your dashboard here, please contact Robert at shuyang.tu@bupa.co.nz

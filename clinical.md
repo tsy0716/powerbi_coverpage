@@ -2,9 +2,10 @@
  
 - **Summary**: Summary of key metrics for VCare incidents.
 - **Incident**: Provides visualisations for all clincial incidents with breakdowns by Incident Type, Care Home, Care Level and Ethnicity.
-- **Incident KPI Pages**: Provides a visualisation for the specific type of incidents against target KPI's. Further breakdown based on selected metrics taken from the incident. **Falls, Pressure Injuries, Medication Errors and Behaviours of Concern** are available.
+- **Incident KPI Pages**: Provides visualisations for the specific type of incidents against target KPI's. Further breakdown based on selected metrics taken from the incident. **Falls, Pressure Injuries, Medication Errors and Behaviours of Concern** are available.
 - **Incident Details**: Provides a table view of incidents. Able to look into the details of each incident.
 - **Antipsychotic Medication**: Provides visualisations for antipsychotic medication with breakdowns by Care Level, Frequency and Medicine.
+- **Antimicrobial&Antiviral Medication**: Provides visualisations for antimicrobial&antiviral medication with breakdowns by Care Level, Frequency and Medicine.
 - **Medication Details**: Provides a table view of medication. Able to check all raw layer related medication data.
  
 # Data Scope
@@ -20,9 +21,9 @@
 - Resident metric reflects the number of residents who had one or more bed nights in the care home during the selected period
 - OBD is defined as occupied bed days or the total number of "occupied" beds within a given period
 - An incident rate is the total number of incidents per occupied bed days multiplied by 1000
-- KPI for antipsychotic medication is the percentage of residents taking antipsychotic medication during the selected period
+- KPI for antipsychotic medication is the percentage of residents taking any antipsychotic medication during the selected period
 - For selected period, a unique combination of NHI and medication is considered as one valid medication record
-
+- For selected period, a unique combination of NHI and prescription is considered as one valid prescription record
  
 # Date Quality and Limitations
  

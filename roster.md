@@ -18,7 +18,7 @@
 - Actual Hrs: Worked hours in Kronos
 - Scheduled Hrs: Hours rostered in Kronos
 - **Worked hours**: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site
-- - **HrsType**
+- **HrsType:**
   - **Not Worked**: Scheduled hours but not worked
   - **Scheduled-Delta**: Worked scheduled hours but not equal to rostered hours
   - **Scheduled-Equal**: Worked rostered hours with no variance

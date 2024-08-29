@@ -4,7 +4,7 @@
 - **Actual vs Benchmark**: Provides actual care hours worked per resident each day vs the benchmark ratio of hours per care type
 - **Actual vs Scheduled**: Compare the hours worked vs the hours rostered in the Kronos “Schedule” and highlights variances
 - **DayView**: Provides a visualisation of the hours worked vs rostered as well as unapproved and break in a time-series format as a diagnostic tool for sites
-- **O/T&Training&Orientation&Leave**: Provides a breakdown of the hours of overtime, training, orientation and leave
+- **O/T&Training&Orientation&Leave&Adjustment**: Provides a breakdown of the hours of overtime, training, orientation and leave. Also includes all adjustments made to the hours worked
 
 # Data Scope
 
@@ -15,9 +15,15 @@
 
 # Definition
 
-- Actual reflects worked hours in Kronos and Schedule reflects hours rostered in Kronos (“Schedule view”)
-- Unscheduled hours are hours worked but not rostered; Unapproved hours are hours captured by time and attendance but outside approved bounds and subject to review
-- Worked hours: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site
+- Actual Hrs: Worked hours in Kronos
+- Scheduled Hrs: Hours rostered in Kronos
+- **Worked hours**: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site
+- - **HrsType**
+  - **Not Worked**: Scheduled hours but not worked
+  - **Scheduled-Delta**: Worked scheduled hours but not equal to rostered hours
+  - **Scheduled-Equal**: Worked rostered hours with no variance
+  - **Unapproved**: Hours captured by time and attendance but outside approved bounds and subject to review
+  - **Unscheduled**: Hours worked but not scheduled
 
 # Date Quality and Limitations
 

@@ -2,7 +2,7 @@
  
 - **Summary**: Summary of key metrics for VCare incidents.
 - **Incident**: Provides visualisations for all clincial incidents with breakdowns by Incident Type, Care Home, Care Level and Ethnicity.
-- **Incident KPI Pages**: Provides visualisations for the specific type of incidents against target KPI's. Further breakdown based on selected metrics taken from the incident. **Falls, Pressure Injuries, Medication Errors and Behaviours of Concern** are available.
+- **Incident KPI Pages**: Provides visualisations for the specific type of incidents against target KPI's. Further breakdown based on selected metrics taken from the incident. **Falls, Pressure Injuries, Medication Errors and Behaviours of Concern, Infections** are available.
 - **Incident Details**: Provides a table view of incidents. Able to look into the details of each incident.
 - **Antipsychotic Medication**: Provides visualisations for antipsychotic medication with breakdowns by Care Level, Frequency and Medicine.
 - **Antimicrobial&Antiviral Medication**: Provides visualisations for antimicrobial&antiviral medication with breakdowns by Care Level, Frequency and Medicine.

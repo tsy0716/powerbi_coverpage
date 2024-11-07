@@ -7,6 +7,8 @@
 - **Antipsychotic Medication**: Provides visualisations for antipsychotic medication with breakdowns by Care Level, Frequency and Medicine.
 - **Antimicrobial&Antiviral Medication**: Provides visualisations for antimicrobial&antiviral medication with breakdowns by Care Level, Frequency and Medicine.
 - **Medication Details**: Provides a table view of medication. Able to check all raw layer related medication data.
+- **Mortality**: Provides visualisations for mortality including mortality rate (per 1000 OBD), life expectancy, length of stay and etc.
+- **Death Details**: Provides a table view of deaths. Able to check all events before 30 days of death.
  
 # Data Scope
  
@@ -24,6 +26,7 @@
 - KPI for antipsychotic medication is the percentage of residents taking any antipsychotic medication during the selected period
 - For selected period, a unique combination of NHI and medication is considered as one valid medication record
 - For selected period, a unique combination of NHI and prescription is considered as one valid prescription record
+- A death outside facility is counted when the death date is not on the next day of last occupancy date
  
 # Date Quality and Limitations
  

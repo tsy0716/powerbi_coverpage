@@ -5,26 +5,25 @@
 - **Actual vs Scheduled**: Compare the hours worked vs the hours rostered and highlights variances
 - **Actual vs Scheduled**: Compare the hours worked vs the hours rostered and highlights variances
 - **DayView**: Provides a visualisation of the hours worked vs rostered as well as unapproved and break in a time-series format as a diagnostic tool for sites
-- **O/T&Training&Orientation&Leave&Adjustment**: Provides a breakdown of the hours of overtime, training, orientation and leave. Also includes all adjustments made to the hours worked
+- **Paycode by Day**: Provides a breakdown of the hours of overtime, training, orientation and leave. Also includes all adjustments made to the hours worked
 
 # Data Scope
 
 - Hours worked data from Kronos and UKG Workforce Planner Pro (UKG)
 - Check for info icon for the applicable roles for each visual
 - Data from UKG is from 02/09/2024 for sites Bethesda, Cedar Manor, Foxbridge, Hugh Green, and Riverstone (pilot sites)
-- For other sites, data from UKG is from 14/10/2020
+- For other sites, data from UKG is from 14/10/2024
 - The historical Kronos data is loaded till the formentioned dates
 - Care Home only, no Village and Support Office data, but includes SLA hours as care hours
 - Occupancy reflects the number (and type) of residents from VCare for the given period
 - Financial impact is based on the weighted average rate by staff type for the staff working
+- All agency hours are NOT captured in the data
 
 # Definition
 
-- Actual Hrs: Actual worked hours recorded by Kronos and UKG
-- Scheduled Hrs: Hours rostered. (Data from UKG is significantly different to Kronos, with a higher number of hours scheduled)
-- Actual Hrs: Actual worked hours recorded by Kronos and UKG
-- Scheduled Hrs: Hours rostered. (Data from UKG is significantly different to Kronos, with a higher number of hours scheduled)
-- **Worked hours**: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site
+- **Actual Hrs**: Actual worked hours recorded by Kronos and UKG
+- **Scheduled Hrs**: Hours rostered. (Data from UKG is significantly different to Kronos, with a higher number of hours scheduled)
+- **Worked hours**: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site. 
 - **HrsType:**
   - **Not Worked**: Scheduled hours but not worked
   - **Scheduled-Delta**: Worked scheduled hours but not equal to rostered hours

@@ -1,11 +1,11 @@
 # Contents
 
 - **Overview**: A summary of the KPIs and trends
+- **Group Ranking**: A ranking view of Actual vs Benchmark and Actual vs Scheduled by site
 - **Actual vs Benchmark**: Provides actual care hours worked per resident each day vs the benchmark ratio of hours per care type
 - **Actual vs Scheduled**: Compare the hours worked vs the hours rostered and highlights variances
-- **Actual vs Scheduled**: Compare the hours worked vs the hours rostered and highlights variances
 - **DayView**: Provides a visualisation of the hours worked vs rostered as well as unapproved and break in a time-series format as a diagnostic tool for sites
-- **Paycode by Day**: Provides a breakdown of the hours of overtime, training, orientation and leave. Also includes all adjustments made to the hours worked
+- **Paycode by Day**: Provides a breakdown of the hours by paycode
 
 # Data Scope
 

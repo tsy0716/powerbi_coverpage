@@ -9,7 +9,9 @@
 - **Medication Details**: Provides a table view of medication. Able to check all raw layer related medication data.
 - **Mortality**: Provides visualisations for mortality including mortality rate (per 1000 OBD), life expectancy, length of stay and etc.
 - **Death Details**: Provides a table view of deaths. Able to check all events before 30 days of death.
- 
+- **Complaints & Compliments**: Provides visualisations for complaints and compliments
+- **C&C Details**: Provides a table view of complaints and compliments. Able to look into the details of each complaint and compliment.
+
 # Data Scope
  
 - Only incidents recorded in VCare are included. NO Riskman incidents are included.

@@ -11,6 +11,8 @@
 - **Death Details**: Provides a table view of deaths. Able to check all events before 30 days of death.
 - **Complaints & Compliments**: Provides visualisations for complaints and compliments
 - **C&C Details**: Provides a table view of complaints and compliments. Able to look into the details of each complaint and compliment.
+- **Clinical Assessments**: Provides the insights of residents without selected clinical assessments (InterRAI, Falls Risk, Braden Presssure Rist, Nutrition Requirments)
+- **Clinical Assessment Details**: Provides a table view of the status of clinical assessments. 
 
 # Data Scope
  

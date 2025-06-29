@@ -23,7 +23,6 @@
 | **Medication incidents** | Total rate of all medication incidents/1000 occupied bed days | Below or equal to KPI | >0% and ≤5% above KPI | >5% and ≤10% above KPI | >10% and ≤15% above target | >15% above target |
 | **Behavioural events** | Total rate of all behaviour events/1000 occupied bed days | Below or equal to KPI | >0% and ≤5% above KPI | >5% and ≤10% above KPI | >10% and ≤15% above target | >15% above target |
 | **Antipsychotic usage** | % of residents prescribed regular antipsychotic medication | Below or equal to KPI | >0% and ≤5% above KPI | >5% and ≤10% above KPI | >10% and ≤15% above target | >15% above target |
-| **Restraint usage** | Total rate of residents with a restraint / 1000 OBD | Below or equal to KPI | >0% and ≤5% above KPI | >5% and ≤10% above KPI | >10% and ≤15% above target | >15% above target |
 | **Complaints** | Total rate/1000 occupied bed days | Nil | <0.5 | 0.5 - 0.75 | 0.76 - 0.9 | >0.9 |
 | **Critical incidents** | Number of incidents per month with Serverity Rating 5 | Nil |  | 1 |  | >1 |
 | **CM Vacancy** | Resigned and role vacant | No Vacancy | Vacancy |  |  |  |

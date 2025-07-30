@@ -12,7 +12,7 @@
 
 # Definition
 
-| **Indicator** | **Definition** | **Data Refresh Frequency** | **0** | **1** | **2** | **3** | **4** |
+| **Indicator** | **Definition** | **Refresh Timing** | **0** | **1** | **2** | **3** | **4** |
 |--------------|----------------|----------------------------|-------|-------|-------|-------|-------|
 | **Falls** | Total rate of falls/1000 occupied bed days | Daily | Below or equal to KPI | >0% and ≤5% above KPI | >5% and ≤10% above KPI | >10% and ≤15% above target | >15% above target |
 | **Pressure injuries (FA)** | Total rate of care home acquired PI’s/1000 occupied bed days | Daily | Below or equal to KPI | >0% and ≤5% above KPI | >5% and ≤10% above KPI | >10% and ≤15% above target | >15% above target |

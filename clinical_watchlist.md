@@ -27,6 +27,7 @@
 | **Clinical competency compliance** | Completion rates from Bupa Learn:<br>• Competency - Blood sugar levels and insulin<br>• Competency - First aid<br>• Competency - Medication combined competency<br>• Competency - Moving and handling people<br>• Competency - Nebuliser<br>• Competency - Neurological observations<br>• Competency - Oxygen<br>• Competency - PPE - donning and doffing<br>• Competency - Restraint or restraint free<br>• Competency - Wound management| Monthly | >95% | 85–94% | 76–84% | 70–75% | 0–69% |
 | **Clinical turnover (EN, RN, UC, CM)** | Voluntary leavers ÷ average headcount for all clinical staff over 12 months | Daily | ≤20% | 20–25% | 25–35% | 35–40% |  |
 | **Clinical audit results (YTD)** | Manual spreadsheet data with YTD rates | Monthly | >95% | 85–94% | 76–84% | 70–75% | 0–69% |
+| **Overdue clinical audit actions (YTD)**| Manual spreadsheet data with YTD numbers | Monthly | 0 | 1-10 | 11-20 | 21-30 | >30 | 
 
 # Date Quality and Limitations
 

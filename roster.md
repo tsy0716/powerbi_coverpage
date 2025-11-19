@@ -15,7 +15,7 @@
 
 # Data Scope
 
-- Hours worked data from Kronos and UKG Dimensions (Workforce Planner Pro).
+- Hours worked data from UKG Dimensions (Workforce Planner Pro).
 - Care Homes only; excludes Village and Support Office data; includes SLA hours as care hours.
 - Occupancy reflects the number (and type) of residents from VCare for the given period.
 - Agency hours are included; use the Agency/Internal slicer to filter.

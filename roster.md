@@ -1,41 +1,39 @@
+# Last Updated: 18/11/2025
+
+# Data Security and Variants
+
+- **Roster - LT - ROM**: For LT/ROM, no data security is applied; users can see all data.
+- **Roster - GM**: For GM (and later BC/Admin), data security is enabled. Users can see ALL aggregated data at the site/role level, but can ONLY see per-individual data (DayView and Paycode by Day) for their own site.
+
 # Contents
 
-- **Overview**: A summary of the KPIs and trends
-- **Group Ranking**: A ranking view of Actual vs Benchmark and Actual vs Scheduled by site
-- **Actual vs Benchmark**: Provides actual care hours worked per resident each day vs the benchmark ratio of hours per care type
-- **Actual vs Scheduled**: Compare the hours worked vs the hours rostered and highlights variances
-- **DayView**: Provides a visualisation of the hours worked vs rostered as well as unapproved and break in a time-series format as a diagnostic tool for sites
-- **Paycode by Day**: Provides a breakdown of the hours by paycode
+- **Overview**: A summary of the KPIs and trends.
+- **DayView**: Provides a visualisation of hours worked vs rostered, as well as unapproved hours and break time, in a time-series format for site diagnostics.
+- **Paycode by Day**: Provides a breakdown of hours by paycode.
+- **Role Mapping**: Provides a mapping of which roles are included or excluded from the dashboard. Note: The role in UKG can differ from the Chris21 role; the dashboard uses the Chris21 role where possible.
+- **Daily Roster Tracker**: A shortcut to the daily email subscription view.
 
 # Data Scope
 
-- Hours worked data from Kronos and UKG Workforce Planner Pro (UKG)
-- Check for info icon for the applicable roles for each visual
-- Data from UKG is from 02/09/2024 for sites Bethesda, Cedar Manor, Foxbridge, Hugh Green, and Riverstone (pilot sites)
-- For other sites, data from UKG is from 14/10/2024
-- The historical Kronos data is loaded till the formentioned dates
-- Care Home only, no Village and Support Office data, but includes SLA hours as care hours
-- Occupancy reflects the number (and type) of residents from VCare for the given period
-- Financial impact is based on the weighted average rate by staff type for the staff working
-- All agency hours are NOT captured in the data
+- Hours worked data from Kronos and UKG Dimensions (Workforce Planner Pro).
+- Care Homes only; excludes Village and Support Office data; includes SLA hours as care hours.
+- Occupancy reflects the number (and type) of residents from VCare for the given period.
+- Agency hours are included; use the Agency/Internal slicer to filter.
 
 # Definition
 
-- **Actual Hrs**: Actual worked hours recorded by Kronos and UKG
-- **Scheduled Hrs**: Hours rostered. (Data from UKG is significantly different to Kronos, with a higher number of hours scheduled)
-- **Worked hours**: Represent the hours physically present at the site and which contribute directly and indirectly to the care of the residents at the site. 
-- **HrsType:**
-  - **Not Worked**: Scheduled hours but not worked
-  - **Scheduled-Delta**: Worked scheduled hours but not equal to rostered hours
-  - **Scheduled-Equal**: Worked rostered hours with no variance
-  - **Unapproved**: Hours captured by time and attendance but outside approved bounds and subject to review
-  - **Unscheduled**: Hours worked but not scheduled
+- **Actual (Supply) Hrs**: Actual worked hours recorded in UKG.
+- **Rostered Hrs**: Hours rostered (excluding unfilled open shifts).
+- **Demand Hrs**: The hours required to care for our residents and run the site. This is calculated using the acuity mix and preset HPR.
+- **HPR/HPRD**: The hours per resident per day for the given period.
+- **Unapproved Hrs**: Early clock-in, late clock-out, and unrostered hours are initially treated as Unapproved in UKG. Once approved, they become Actual Hrs.
 
-# Date Quality and Limitations
+# Data Quality and Limitations
 
-- Refreshed daily at 12:00 PM and 6:00 PM, for the previous day's data
-- i.e: The data will be available T+1 since 12:00 PM
-- Data within 48-96 hours of current date is subject to changes which result from Admin approvals/updates (the most recent 24 hours is generally understated)
-- Data within 48-96 hours of current date is subject to changes which result from Admin approvals/updates (the most recent 24 hours is generally understated)
-- Data is presented for validation in parallel to its use; the complexity and density of the data from Kronos means it needs to be reviewed in consultation with what you expect to see
-- Support is available via your Finance Business Partner
+- Refreshed every 4 hours.
+- Data from "yesterday" will NOT be included in the dashboard, as it is still finalising in UKG.
+- The daily subscription sent each morning shows the data of "the day before yesterday" and is the latest date available in the main dashboard.
+- Data within 24-96 hours of the current date is subject to change due to Admin approvals/updates.
+- The email subscription is based on a static snapshot of data at the time of sending; subsequent updates will appear in the main dashboard but not in the email.
+- Data is presented for validation in parallel with its use; given its complexity and density, please review it against expected outcomes.
+- Support is available via Workforce Optimisation Manager `Silas.Harrison@bupa.co.nz`.
